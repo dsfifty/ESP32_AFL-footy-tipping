@@ -1,4 +1,3 @@
-![1000019092](https://github.com/dsfifty/AFL-footy-tipping/assets/113217855/a614ac36-693d-496d-ab15-d3baff71216c)
 ![1000019147](https://github.com/dsfifty/AFL-footy-tipping/assets/113217855/1454fe34-b86a-425d-a928-043ecc0a6159)
 ![1000019144](https://github.com/dsfifty/AFL-footy-tipping/assets/113217855/f72631a0-d818-4583-aeb6-28e90580bbfb)
 # ESP32 AFL-footy-tipping
