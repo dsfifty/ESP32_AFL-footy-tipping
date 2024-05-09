@@ -15,23 +15,3 @@ This code uses the TFT_eSPI library. In this library you have to set up the User
 If you have your screen working properly using the TFT_eSPI library, then this code is good to go (nearly).
 
 Report any issues and I will try to help
-
-Footy+API v1.02
-~~~~~~~~~~~~~~~
-  - Added font/background colour options toward the beginning.
-  - Removed much of the code from loop() and setup() and put them in functions
-  - Changed the cutoff time for accessing tips from the API to 8pm Wednesday
-  - Added a small notificaion bottom right if the tips are coming from the API
-
-Footy_API v1.01
-~~~~~~~~~~~~~~
-Added a way to save the footy tips after Wednesday so that if the API changes the tips, my registered tips are still used.
-  - required LittleFS
-  - required time and ntp functions
-  - added a startup screen
-  - tidied up the serial port output
-
-Footy_API v1.00
-~~~~~~~~~~~~~~
-The first version to retrieve live tips and compare them with the actual scores, giving a tally.
-  - changed the variables to char[] from const char* so that they didn't get lost when the JSON doc got destroyed.
