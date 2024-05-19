@@ -1,3 +1,9 @@
+Footy_API v1.03
+~~~~~~~~~~~~~~~
+  - added a new score colour for game breaks.
+  - added game start time if the game is not yet started, adjusted for time zone and 12 hour clock (have to select tz difference from Melbourne).
+  - added option to change the tipping source. (options https://api.squiggle.com.au/?q=sources).
+ 
 Footy+API v1.02
 ~~~~~~~~~~~~~~~
   - Added font/background colour options toward the beginning.
