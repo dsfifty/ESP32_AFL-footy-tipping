@@ -1,3 +1,10 @@
+ Footy_API v1.04
+~~~~~~~~~~~~~~~
+  - added two colours for game times so that games days are grouped together.
+  - added a line between games/scores to group game days together.
+  - added OTA functionality.
+  - got rid of delay() function, replacing with millis().
+
 Footy_API v1.03
 ~~~~~~~~~~~~~~~
   - added a new score colour for game breaks.
