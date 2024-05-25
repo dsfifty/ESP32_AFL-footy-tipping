@@ -13,5 +13,6 @@ Accesses api.squiggle.com.au
 This code uses the TFT_eSPI library. In this library you have to set up the User.Setup.h file in the library folder according to your own connections.
 
 If you have your screen working properly using the TFT_eSPI library, then this code is good to go (nearly).
+NOTE: All versions prior to v1.1 run on a 320x240 screen (ILI9341). Versions v1.1 and after are on a 320x480 screen with touch (ILI9488)
 
 Report any issues and I will try to help
