@@ -1,6 +1,17 @@
+Footy_API_1.1 (320x480)
+~~~~~~~~~~~~~~~~~~~~~~~ 
+  - adjusted for 320x480 display ILI9488 (fonts, Screen Layout)
+  - added a menu that will adjust the round, tipping source, year and WiFi source
+  - a 'SET' button allows you to set the round as the current round. The current round is saved in LittleFS
+  - the tipping source and WiFi settings are saved in LittleFS
+  - added six WiFi settings  Home, Phone, User 1-4. These are configurable in the sketch
+  - can now scroll through any round/year without upsetting the current round's tips
+  - can see which tipping source will tip what. (see https://api.squiggle.com.au/?q=sources)
+
  Footy_API v1.04
-~~~~~~~~~~~~~~~
-  - added two colours for game times so that games days are grouped together.
+~~~~~~~~~~~~~~~~
+  - final update for the 320x240 screen (ILI9341)
+  - added two colours for game times so that game days are grouped together.
   - added a line between games/scores to group game days together.
   - added OTA functionality.
   - got rid of delay() function, replacing with millis().
