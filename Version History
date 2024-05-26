@@ -1,7 +1,15 @@
-Footy_API_1.1 (320x480)
+Footy_API v1.11 
+~~~~~~~~~~~~~~~
+  - allowed feature to scroll through tipping sources without messing with the current tips selected.
+  - tipping source is always current before the tipping time cut off (Wednesday 8pm)
+  - gathered the menu colour options together at the beginning of the menuScreen() function for easier adjustment if required
+  - added a feature that if the round, year or tipping source is not current, then the associated heading on the main screen goes to an alternate colour.
+  - added a feature that changes the round menu data to an alternative colour if the year option is changed
+
+Footy_API v1.1 (320x480)
 ~~~~~~~~~~~~~~~~~~~~~~~ 
-  - adjusted for 320x480 display ILI9488 (fonts, Screen Layout)
-  - added a menu that will adjust the round, tipping source, year and WiFi source
+  - adjusted for 320x480 display ILI9488 touch screen (fonts, Screen Layout)
+  - added a touch screen that will adjust the round, tipping source, year and WiFi source
   - a 'SET' button allows you to set the round as the current round. The current round is saved in LittleFS
   - the tipping source and WiFi settings are saved in LittleFS
   - added six WiFi settings  Home, Phone, User 1-4. These are configurable in the sketch
@@ -11,7 +19,7 @@ Footy_API_1.1 (320x480)
  Footy_API v1.04
 ~~~~~~~~~~~~~~~~
   - final update for the 320x240 screen (ILI9341)
-  - added two colours for game times so that game days are grouped together.
+  - added two colours for game times so that games days are grouped together.
   - added a line between games/scores to group game days together.
   - added OTA functionality.
   - got rid of delay() function, replacing with millis().
@@ -21,24 +29,25 @@ Footy_API v1.03
   - added a new score colour for game breaks.
   - added game start time if the game is not yet started, adjusted for time zone and 12 hour clock (have to select tz difference from Melbourne).
   - added option to change the tipping source. (options https://api.squiggle.com.au/?q=sources).
- 
-Footy+API v1.02
+  - TO DO: allow for changing the round to check future and past rounds. I want to do this by touch screen. Create a settings menu.
+  - tried to add touch screen functionality. Didn't work. Assume screen is not touchable, despite pins being available. New screen ordered.
+
+Footy_API v1.02
 ~~~~~~~~~~~~~~~
   - Added font/background colour options toward the beginning.
-  - Removed much of the code from loop() and setup() and put them in functions
-  - Changed the cutoff time for accessing tips from the API to 8pm Wednesday
-  - Added a small notification bottom right if the tips are coming from the API
+  - Removed much of the code from loop() and setup() and put them in functions.
+  - Changed the cutoff time for accessing tips from the API to 8pm Wednesday.
+  - Added a small notification bottom right if the tips are coming from the API.
 
 Footy_API v1.01
 ~~~~~~~~~~~~~~
 Added a way to save the footy tips after Wednesday so that if the API changes the tips, my registered tips are still used.
-  - required LittleFS
-  - required time and ntp libraries
-  - added a startup screen
-  - tidied up the serial port output
+  - required LittleFS.
+  - required time and ntp libraries.
+  - added a startup screen.
+  - tidied up the serial port output.
 
 Footy_API v1.00
 ~~~~~~~~~~~~~~
 The first version to retrieve live tips and compare them with the actual scores, giving a tally.
   - changed the variables to char[] from const char* so that they didn't get lost when the JSON doc got destroyed.
-
