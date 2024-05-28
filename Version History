@@ -1,3 +1,10 @@
+Footy_API v1.12
+~~~~~~~~~~~~~~~
+  - minor bug fixes
+  - added AFL logo on the main screen. logo.h has to be in the same directory as the sketch
+  - requires the <PNGDec.h> library
+  - added an option to see the current AFL ladder from the main screen
+
 Footy_API v1.11 
 ~~~~~~~~~~~~~~~
   - allowed feature to scroll through tipping sources without messing with the current tips selected.
@@ -8,7 +15,7 @@ Footy_API v1.11
 
 Footy_API v1.1 (320x480)
 ~~~~~~~~~~~~~~~~~~~~~~~ 
-  - adjusted for 320x480 display ILI9488 touch screen (fonts, Screen Layout)
+  - adjusted for 320x480 display ILI9488 thouch screen (fonts, Screen Layout)
   - added a touch screen that will adjust the round, tipping source, year and WiFi source
   - a 'SET' button allows you to set the round as the current round. The current round is saved in LittleFS
   - the tipping source and WiFi settings are saved in LittleFS
