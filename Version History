@@ -1,3 +1,10 @@
+Footy_API v1.13
+~~~~~~~~~~~~~~~
+ - minor bug fixes
+ - added 1 decimal place to the percentages on the ladder screen
+ - allowed for changeover from live tips to saved tips without a device reset
+ - User WiFi settings are in a different colour if not defined in code
+
 Footy_API v1.12
 ~~~~~~~~~~~~~~~
   - minor bug fixes
