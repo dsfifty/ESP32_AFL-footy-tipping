@@ -18,7 +18,11 @@ This code uses the TFT_eSPI library. In this library you have to set up the User
 
 If you have your screen working properly using the TFT_eSPI library, then this code is good to go (nearly).
 
-NOTE: All versions prior to v1.1 run on a 320x240 screen (ILI9341). Versions v1.1 and after are on a 320x480 screen with touch (ILI9488). Versions v1.1 and after require Free_Fonts.h (included) to be in the same directory as the program file. Versions v1.12 and later require logo.h to be in the same directory as the program file.
+NOTES: 
+All versions prior to v1.1 run on a 320x240 screen (ILI9341). 
+Versions v1.1 and after are on a 320x480 screen with touch (ILI9488). 
+Versions v1.1 and after require Free_Fonts.h (included) to be in the same directory as the program file. 
+Versions v1.12 and later require logo.h to be in the same directory as the program file.
 
 Report any issues and I will try to help.
 
