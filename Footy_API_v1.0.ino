@@ -55,8 +55,8 @@ int gameLive = 0;  // used to test if a game is ive to shorten the loop delay
 int delLive = 30000;
 int delNoGames = 120000;
 
-char ssid[] = "Jerry";                 // your network SSID (name)
-char password[] = "ABCNEWSBREAKFAST";  // your network key
+char ssid[] = "YOURSSID";                 // your network SSID (name)
+char password[] = "YOURPASSWORD";  // your network key
 
 WiFiClientSecure client;  // starts the client for HTTPS requests
 
@@ -115,7 +115,7 @@ void gameRequest() {  // function to get the games and scores
   client.print(F("Host: "));  //Headers
   client.println(HOST);
   client.println(F("Cache-Control: no-cache"));
-  client.println("User-Agent: Arduino Footy Project - dsfifty.smith@gmail.com");  // Required by API for contact if anything goes wrong
+  client.println("User-Agent: Arduino Footy Project - ds@ds.com");  // Required by API for contact if anything goes wrong
 
   if (client.println() == 0) {
     Serial.println(F("Failed to send request"));
@@ -230,7 +230,7 @@ void tipsRequest() {
   client.print(F("Host: "));  //Headers
   client.println(HOST);
   client.println(F("Cache-Control: no-cache"));
-  client.println("User-Agent: Arduino Footy Project - dsfifty.smith@gmail.com");  // Required by API for contact if anything goes wrong
+  client.println("User-Agent: Arduino Footy Project - ds@ds.com");  // Required by API for contact if anything goes wrong
 
   if (client.println() == 0) {
     Serial.println(F("Failed to send request"));
