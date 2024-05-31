@@ -119,8 +119,8 @@ int weekDay = 10;         // global variable to hold the day of the week when se
 int hour = 23;            // global variable to hold the current hour
 int tipsLive = 1;         // global variable 1 = tips are retrieved from API, 0= tips are retrieved from LittleFS
 
-char ssid[] = "Jerry";                 // your network SSID (name)
-char password[] = "ABCNEWSBREAKFAST";  // your network key
+char ssid[] = "YOURSSID";                 // your network SSID (name)
+char password[] = "YOURPASSWORD";  // your network key
 
 WiFiClientSecure client;  // starts the client for HTTPS requests
 
@@ -196,7 +196,7 @@ void gameRequest() {  // function to get the games and scores
   client.print(F("Host: "));  //Headers
   client.println(HOST);
   client.println(F("Cache-Control: no-cache"));
-  client.println("User-Agent: Arduino Footy Project - dsfifty.smith@gmail.com");  // Required by API for contact if anything goes wrong
+  client.println("User-Agent: Arduino Footy Project - ds@ds.com");  // Required by API for contact if anything goes wrong
 
   if (client.println() == 0) {
     Serial.println(F("Failed to send request"));
@@ -318,7 +318,7 @@ void tipsRequest() {  // function to get the current tips
     client.print(F("Host: "));  //Headers
     client.println(HOST);
     client.println(F("Cache-Control: no-cache"));
-    client.println("User-Agent: Arduino Footy Project - dsfifty.smith@gmail.com");  // Required by API for contact if anything goes wrong
+    client.println("User-Agent: Arduino Footy Project - ds@ds.com");  // Required by API for contact if anything goes wrong
 
     if (client.println() == 0) {
       Serial.println(F("Failed to send request"));
