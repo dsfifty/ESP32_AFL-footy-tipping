@@ -70,10 +70,10 @@ TFT_eSPI tft = TFT_eSPI();  // Activate TFT device
 
 #define HOST "api.squiggle.com.au"  // Base URL of the API
 
-char ssid0[] = "Jerry";                 // network SSID (Home)
-char password0[] = "ABCNEWSBREAKFAST";  // network key (Home)
-char ssid1[] = "dsfifty phone";         // network SSID (Phone)
-char password1[] = "dsfiftys7";         // network key (Phone)
+char ssid0[] = "YOURSSID";              // network SSID (Home)
+char password0[] = "YOURPASSWORD";      // network key (Home)
+char ssid1[] = "";                      // network SSID (Phone)
+char password1[] = "";                  // network key (Phone)
 char ssid2[] = "";                      // network SSID (User 1)
 char password2[] = "";                  // network key (User 1)
 char ssid3[] = "";                      // network SSID (User 2)
