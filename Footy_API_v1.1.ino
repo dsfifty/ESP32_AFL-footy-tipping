@@ -62,10 +62,10 @@ TFT_eSPI tft = TFT_eSPI();  // Activate TFT device
 
 #define HOST "api.squiggle.com.au"  // Base URL of the API
 
-char ssid0[] = "Jerry";                 // network SSID (Home)
-char password0[] = "ABCNEWSBREAKFAST";  // network key (Home)
-char ssid1[] = "dsfifty phone";         // network SSID (Phone)
-char password1[] = "dsfiftys7";         // network key (Phone)
+char ssid0[] = "YOURSSID1";             // network SSID (Home)
+char password0[] = "YOURPASSOWRD1";     // network key (Home)
+char ssid1[] = "";                      // network SSID (Phone)
+char password1[] = "";                  // network key (Phone)
 char ssid2[] = "";                      // network SSID (User 1)
 char password2[] = "";                  // network key (User 1)
 char ssid3[] = "";                      // network SSID (User 2)
@@ -285,7 +285,7 @@ void gameRequest() {  // function to get the games and scores
   client.print(F("Host: "));  //Headers
   client.println(HOST);
   client.println(F("Cache-Control: no-cache"));
-  client.println("User-Agent: Arduino Footy Project - dsfifty.smith@gmail.com");  // Required by API for contact if anything goes wrong
+  client.println("User-Agent: Arduino Footy Project - ds@ds.com");  // Required by API for contact if anything goes wrong
 
   if (client.println() == 0) {
     Serial.println(F("Failed to send request"));
@@ -416,7 +416,7 @@ void tipsRequest() {  // function to get the current tips
     client.print(F("Host: "));  //Headers
     client.println(HOST);
     client.println(F("Cache-Control: no-cache"));
-    client.println("User-Agent: Arduino Footy Project - dsfifty.smith@gmail.com");  // Required by API for contact if anything goes wrong
+    client.println("User-Agent: Arduino Footy Project - ds@ds.com");  // Required by API for contact if anything goes wrong
 
     if (client.println() == 0) {
       Serial.println(F("Failed to send request"));
