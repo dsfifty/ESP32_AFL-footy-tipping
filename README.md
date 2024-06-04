@@ -18,6 +18,9 @@ This code uses the TFT_eSPI library. In this library you have to set up the User
 
 If you have your screen working properly using the TFT_eSPI library, then this code is good to go (nearly).
 
+![20240604_191033](https://github.com/dsfifty/ESP32_AFL-footy-tipping/assets/113217855/1d2e2bf5-f925-457b-9a2e-c2761f0516fa)
+![20240602_144637](https://github.com/dsfifty/ESP32_AFL-footy-tipping/assets/113217855/36b1263e-fdda-40ad-bc07-cd6fb136e9f7)
+
 NOTES: 
  - All versions prior to v1.1 run on a 320x240 screen (ILI9341).
  - Versions v1.1 and after are on a 320x480 screen with touch (ILI9488).
