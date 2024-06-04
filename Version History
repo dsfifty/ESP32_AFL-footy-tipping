@@ -1,3 +1,10 @@
+Footy_API v1.14
+~~~~~~~~~~~~~~~
+ - minor bug fixes
+ - added a delHTTP to set up to three seconds if the API is slow. (500ms seems to work)
+ - added client.stop() to the return from functions if HTTP error, so it doesn' happen again.
+ - added a LIVE notification on the main screen that will go red if HTTP error
+
 Footy_API v1.13
 ~~~~~~~~~~~~~~~
  - minor bug fixes
