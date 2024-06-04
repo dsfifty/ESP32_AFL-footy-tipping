@@ -29,6 +29,8 @@ NOTES:
 
 Report any issues and I will try to help.
 
+![pinout](https://github.com/dsfifty/ESP32_AFL-footy-tipping/assets/113217855/e2c9d308-8198-45d3-8c15-8f91531ebba1)
+
 How to use...
 
 1. Use the menu to select a tipping source (api.squiggle.com.au/?=source)
