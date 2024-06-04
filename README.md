@@ -29,7 +29,7 @@ NOTES:
 
 Report any issues and I will try to help.
 
-![pinout](https://github.com/dsfifty/ESP32_AFL-footy-tipping/assets/113217855/e2c9d308-8198-45d3-8c15-8f91531ebba1)
+![pinout](https://github.com/dsfifty/ESP32_AFL-footy-tipping/assets/113217855/2afd106c-f2a5-4859-af97-90a568a623a9)
 
 How to use...
 
