@@ -33,5 +33,6 @@ How to use...
 3. After Wednesday at 8pm, you can change the source, but only for observation. When watching games, your saved tips will count.
 4. When the round finishes, change the round in the menu and touch the set button. This will set the new current round.
 5. At any time, you can check the results from any year, any round (that the API supports) using the menu.
-6. Set your WiFi credentials in the code (replacing mine), including home, your phone and up to four other options (User 1-4)
-7. If you want to change the theme colours, do so in the code. (at the beginning of the sketch, then also at the beginning of menuScreen() and getLadder()
+6. Set your WiFi credentials in the code, including home, your phone and up to four other options (User 1-4)
+7. Set your timezone according to time zone rules in the code. Also add your relative time difference from Sydney in minutes in the line underneath. (eg Adelaide is -30)
+8. If you want to change the theme colours, do so in the code. (at the beginning of the sketch, then also at the beginning of menuScreen() and getLadder()
