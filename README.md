@@ -26,10 +26,9 @@ NOTES:
  - Versions v1.1 and after are on a 320x480 screen with touch (ILI9488).
  - Versions v1.1 and after require Free_Fonts.h (included) to be in the same directory as the program file.
  - Versions v1.12 and later require logo.h to be in the same directory as the program file.
+ - Crashes with ESP32 Core 3.0. I can't work out why. I use the previous version 2.0.17.
 
 Report any issues and I will try to help.
-
-![pinout](https://github.com/dsfifty/ESP32_AFL-footy-tipping/assets/113217855/2afd106c-f2a5-4859-af97-90a568a623a9)
 
 How to use...
 
@@ -41,3 +40,4 @@ How to use...
 6. Set your WiFi credentials in the code, including home, your phone and up to four other options (User 1-4)
 7. Set your timezone according to time zone rules in the code. Also add your relative time difference from Sydney in minutes in the line underneath. (eg Adelaide is -30)
 8. If you want to change the theme colours, do so in the code. (at the beginning of the sketch, then also at the beginning of menuScreen() and getLadder()
+9. You can add your own USERID to the API calls, by changing the ds@ds.com email to your own.
