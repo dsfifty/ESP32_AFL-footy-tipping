@@ -1,3 +1,8 @@
+Footy_API v1.15
+~~~~~~~~~~~~~~~
+- added an amount of dots next to the live score to show what quarter is being played.
+- bug fixes
+
 Footy_API v1.14
 ~~~~~~~~~~~~~~~
  - minor bug fixes
