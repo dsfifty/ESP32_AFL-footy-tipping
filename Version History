@@ -1,3 +1,12 @@
+Footy_API v1.16
+~~~~~~~~~~~~~~~
+- changed the menu "Round Set" button to the bottom
+- added a menu button to set or unset the tips saved feature.
+- added a screen to show the tipping sources by ID
+- sources screen: selected tipping source is highlighted red
+- sources screen: saved tipping source is highlighted yellow
+- bug fixes
+
 Footy_API v1.15
 ~~~~~~~~~~~~~~~
 - added an amount of dots next to the live score to show what quarter is being played.
