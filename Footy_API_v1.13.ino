@@ -1531,7 +1531,7 @@ void getLadder() {  // a function to display the current ladder
   client.print(F("Host: "));  //Headers
   client.println(HOST);
   client.println(F("Cache-Control: no-cache"));
-  client.println("User-Agent: Arduino Footy Project - dsfifty.smith@gmail.com");  // Required by API for contact if anything goes wrong
+  client.println("User-Agent: Arduino Footy Project - ds@ds.com");  // Required by API for contact if anything goes wrong
 
   if (client.println() == 0) {
     Serial.println(F("Failed to send request"));
