@@ -1,3 +1,12 @@
+Footy_API v1.2
+~~~~~~~~~~~~~~
+ - got rid of the tips being set by time or day of week 
+ - and rely wholly on the tips set button on the menu screen. 
+ - ie. when you have published your own tips, touch tip set.
+ - API notification changed to TIPS, which can be touched to see the source screen
+ - touching the LIVE icon give an immediate refresh (LIVE text disappears)
+ - bug fixes
+
 Footy_API v1.16
 ~~~~~~~~~~~~~~~
 - changed the menu "Round Set" button to the bottom
