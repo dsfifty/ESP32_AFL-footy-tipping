@@ -33,11 +33,15 @@ Report any issues and I will try to help.
 How to use...
 
 1. Use the menu to select a tipping source (api.squiggle.com.au/?=source)
-2. Before Wednesday at 8pm, you can change your tipping source (This is the time I set my tips)
-3. After Wednesday at 8pm, you can change the source, but only for observation. When watching games, your saved tips will count.
-4. When the round finishes, change the round in the menu and touch the set button. This will set the new current round.
+2. Once you have chosen your tips and posted them, touch set tips on the menu screen. This will keep your tips even if the API source changes them.
+3. After setting the tips, you can change the source, but only for observation. When watching games, your saved tips will count.
+4. When the round finishes, change the round in the menu and touch the rnd set button. This will set the new current round.
 5. At any time, you can check the results from any year, any round (that the API supports) using the menu.
-6. Set your WiFi credentials in the code, including home, your phone and up to four other options (User 1-4)
-7. Set your timezone according to time zone rules in the code. Also add your relative time difference from Sydney in minutes in the line underneath. (eg Adelaide is -30)
-8. If you want to change the theme colours, do so in the code. (at the beginning of the sketch, then also at the beginning of menuScreen() and getLadder()
-9. You can add your own USERID to the API calls, by changing the ds@ds.com email to your own.
+6. On the main screen, if the LIVE notification is red the HTTP call is not connecting.
+7. On the main screen, if the TIPS notification is red, that means the tips are not saved and are coming from the API.
+8. Touching the Ladder from the main screen will give you the current ladder.
+9. Touching Sources from the menu screen, or tips from the main screen will give you a list of the sources that you can select for your tipping.
+10. Set your WiFi credentials in the code, including home, your phone and up to four other options (User 1-4). Changing these in the menu requires a reboot.
+11. Set your timezone according to time zone rules in the code. Also add your relative time difference from Sydney in minutes in the line underneath. (eg Adelaide is -30)
+12. If you want to change the theme colours, do so in the code. (at the beginning of the sketch, then also at the beginning of menuScreen() and getLadder()
+13. You can add your own USERID to the API calls, by changing the ds@ds.com email to your own.
