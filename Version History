@@ -1,3 +1,9 @@
+Footy_API v1.21
+~~~~~~~~~~~~~~~
+ - tweaks
+ - bug fixes
+ - fixed bug where GameID on the API is no longer chronological. Order of games is now sorted by unixtime
+
 Footy_API v1.2
 ~~~~~~~~~~~~~~
  - got rid of the tips being set by time or day of week 
