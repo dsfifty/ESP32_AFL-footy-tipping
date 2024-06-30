@@ -1,3 +1,7 @@
+Footy_API v1.22
+~~~~~~~~~~~~~~~
+ - fixed the flicker on the screen every refresh, screen is now stable.
+
 Footy_API v1.21
 ~~~~~~~~~~~~~~~
  - tweaks
